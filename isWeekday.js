@@ -1,4 +1,4 @@
 function isWeekday(day){
-    if(day.startsWith("M"||"T"||"W"||"F")){return true;}
+    if(!day.startsWith("S")){return true;}
     else{return false;}
   }
